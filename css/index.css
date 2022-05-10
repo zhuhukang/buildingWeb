@@ -1,0 +1,366 @@
+@charset "utf-8";
+html{
+    font: 12px '宋体';
+}
+a{
+    color: #000;
+}
+.top{
+    background-color: #F7F7F7;
+    height: 26px;
+    border-bottom: 1px solid #D8D8D8;
+}
+/*设置版心*/
+.top_page{
+    width: 970px;
+    height: 26px;
+    margin: 0 auto;
+}
+.top_page_l{
+    line-height: 26px;
+}
+.top_page_r ul li{
+    line-height: 26px;
+    float: left;
+    padding-right: 10px;
+}
+.top_page_r ul li span {
+    /*width: 14px;*/
+    /*height: 12px;*/
+    /*background: url("../image/sprite.svg");*/
+    /*display: inline-block;*/
+    vertical-align: middle;
+}
+.logo{
+    width: 970px;
+    height: 98px;
+    margin: 0 auto;
+}
+.logo_l{
+    width: 200px;
+    height: 55px;
+    margin: 24px 0 19px 9px;
+    /*background-image: url(../image/01.png);*/
+    background: url(../image/sprite.jpg) -200px 0;
+    text-indent: -1000em; /*设置文字相对于图片来说看不见*/
+}
+.logo_r{
+    width: 530px;
+    height: 42px;
+    border: 1px solid #C9C9C9;
+    margin-top: 29px;
+}
+.logo_r_content{
+    margin: 5px 5px 5px 4px;
+}
+.logo_r_search{
+    width: 418px;
+    height: 28px;
+    border: 1px solid #C9C9C9;
+    color: #999999;
+}
+.logo_r_btn{
+    width: 99px;
+    height: 30px;
+    color: white;
+    background-color: #2F70D0;
+}
+.nav{
+    width: 970px;
+    height: 25px;
+    margin: 0 auto;
+    border-bottom: 2px solid #0266A3;
+}
+.nav li{
+    padding: 0 15px;
+    line-height: 25px;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;/*加粗显示*/
+
+}
+.nav li a{
+    color: #0266A3;
+}
+.nav li:hover{
+    background-color: #0266A3;
+}
+.nav li:hover a {
+    color: white;
+
+}
+.banner{
+    width: 970px;
+    height: 210px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.subNav{
+    width: 200px;
+    height: 210px;
+    margin-right: 11px;
+}
+/*将原有样式进行删除*/
+/*.ad{
+    width: 520px;
+    height: 210px;
+    overflow: hidden;
+    position: relative;
+}
+
+.images-container{
+    width: 1920px;
+    height: 320px;
+    display: flex;
+    transition: transform 0.3s;
+}*/
+/*S--自行样式开始*/
+/*#app{*/
+.ad{
+    width: 520px;
+    height: 210px;
+    overflow: hidden;
+    position: relative;
+}
+#app img{
+    position: relative;
+    width: 520px;
+    height: 210px;
+    float: left;
+
+}
+#app a{
+    height: 55px;
+    width: 15px;
+}
+#app a .aimg{
+    width: 36px;
+    height:70px;
+    position: absolute;
+    top: 36%;
+    /*background-color: #2c3e50;*/
+}
+
+#app .right img{
+    right: 10px;
+}
+#app .left img{
+    left: 10px;
+}
+
+/*E-- 自行样式结束*/
+
+/*.images-container img{
+    width: 640px;
+    height: 320px;
+}*/
+/*.images-container:hover{*/
+/*    transform: translate(-640px);*/
+/*}*/
+.number-list{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+.message{
+    width: 230px;
+    height: 210px;
+}
+.subNav h2{
+    padding-left: 20px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #0266A3;
+    color: white;
+}
+.subNav ul{
+    background-color: #EBF0F6;
+    height: 180px;
+}
+.subNav img{
+    vertical-align: middle;
+}
+.subNav li{
+    font-size: 15px;
+    padding-top: 11px;
+    margin-left: 9px;
+}
+.subNav li a{
+    padding-left: 15px;
+}
+.message_top{
+    height: 95px;
+    border: 1px solid #DDDDDD;
+    background: #F7FAFF;
+    margin-bottom: 21px;
+}
+.message_top .fw{
+    padding: 7px 0 0 18px;
+    font-weight: bold;
+}
+.message_top img{
+    margin: 20px 10px 0 10px;
+}
+.message_top .cheap{
+    margin-top: 25px;
+}
+
+.message_bottom{
+    height: 92px;
+    background: #F7F7F7;
+    text-align: center;
+
+}
+.message_bottom p:first-child{
+    font-size: 14px;
+    padding-top: 11px;
+    font-weight: bold;
+}
+
+.message_bottom .tel{
+    margin-top: 8px;
+    color: #3F9CE0;
+}
+.message_bottom .zixun span{
+    position: relative;
+    top: -5px;
+}
+.material{
+    width: 950px;
+    height: 34px;
+    border-top: 2px solid #C3D7E4;
+    margin: 0 auto;
+    margin-top: 14px;
+    line-height: 34px;
+    background: #ECF1F7;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.product{
+    width: 970px;
+    height: 345px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+.product .product_l{
+    width: 738px;
+    height: 345px;
+    border: 1px solid #D8D8D8;
+}
+.product .product_l .product_l_top{
+     /*width: 738px;因为可以继承父类的宽度，所以此处可设可不设*/
+    height: 155px;
+    width: 712px;
+    padding: 17px 0 0 26px;
+
+}
+.product_l_top .p_l_t_product1{
+    width: 350px;
+    height: 146px;
+
+}
+.product .buy{
+    width: 99px;
+    height: 143px;
+}
+.product .buy .img{
+    height: 100px;
+    border: 1px solid #CACACA;
+
+}
+.product .buy .img img{
+    width: 90px;
+    height: 62px;
+    margin: 20px 4px 0 3px;
+
+}
+.product .buy .btn{
+    width: 99px;
+    height: 26px;
+    background-color: #0A84E3;
+    color: white;
+    margin-top: 15px;
+}
+.product .explain{
+    width: 250px;
+    height: 143px;
+}
+.product .explain .goodWife{
+    font-size: 14px;
+    padding:10px 0 0 10px;
+}
+.product .explain .auto{
+    color: #863E01;
+    padding:13px 0 0 15px;
+}
+.product .explain .money{
+    padding:23px 0 0 11px;
+}
+.product .explain .money span{
+    color: red;
+}
+.product .explain .buyed{
+    font-size: 14px;
+    padding: 22px 0 0 11px;
+}
+.product .explain .buyed span{
+    color: firebrick;
+}
+.product .product_r{
+    width: 220px;
+    height: 345px;
+    border: 1px solid #CCC;
+}
+.product_l_line{
+    margin: 0 4px 0 4px;
+    border-top: 1px solid #CCC;
+}
+.product_r h2{
+    height: 28px;
+    line-height: 28px;
+    padding-left: 15px;
+    border-bottom: 1px solid #E0E6F0;
+}
+.product_r ul{
+    padding-top: 11px;
+    padding-left: 26px;
+
+}
+.product_r li{
+    list-style:square;
+    line-height: 23px;
+}
+/*.char{*/
+/*    width: 970px;*/
+/*    height: 500px;*/
+/*    */
+/*}*/
+.link{
+    width: 970px;
+    height: 103px;
+    margin: 0 auto;
+    margin-top: 11px;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 3px solid #0A7EC3;
+    color: #666666;
+}
+.link_p1{
+    margin-top: 30px;
+}
+.link_p2{
+    margin-top: 14px;
+    margin-left: 61px;
+}
+.about{
+    height: 91px;
+    width: 970px;
+    margin: 0 auto;
+}
+.about p{
+    margin-top: 14px;
+    text-align: center;
+}

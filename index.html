@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>建材市场</title>
+  <link rel="stylesheet" href="css/cssReset.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/iconfont.css">
+</head>
+<body>
+  <!-- S= 页面的顶部-->
+  <div class="top">
+    <div class="top_page">
+      <div class="top_page_l fl">您好！欢迎来到建材网</div>
+      <div class="top_page_r fr">
+        <!-- ul>li*4>a[href='#']-->
+        <ul>
+          <li><a href="">建材网首页</a></li>
+          <li><a href="">我的商务室</a><span class="iconfont icon-xiala"></span></li>
+          <li><a href="">我的收藏</a><span class="iconfont icon-xiala"></span></li>
+          <li><a href="">建材服务</a><span class="iconfont icon-xiala"></span></li>
+          <li><a href="">客服中心</a></li>
+          <li><a href="">网站导航</a><span class="iconfont icon-xiala"></span></li>
+        </ul> 
+      </div>
+    </div>
+  </div>
+  <!--E= 页面的顶部-->
+
+ <!--S=logo  -->
+  <div class="logo">
+    <h1 class="logo_l fl">虎康建材</h1><!--把文字和图片放到h1标签中可以更好的向浏览器展示，对浏览器友好 -->
+    <div class="logo_r fr">
+      <div class="logo_r_content">
+        <input type="input" placeholder="请输入关键字" class="logo_r_search fl">
+        <input type="button" value="搜索" class="logo_r_btn fl">
+      </div>
+    </div>
+  </div>
+ <!--E=logo  -->
+ <!--S=导航  -->
+  <div class="nav">
+    <ul>
+      <li><a href="#">首页</a></li>
+      <li><a href="#">建筑材料</a></li>
+      <li><a href="#">儿童安全座椅</a></li>
+      <li><a href="#">工艺美术品</a></li>
+    </ul> 
+  </div>
+ <!--E=导航  -->
+ <!--S=banner  -->
+  <div class="banner">
+    <div class="subNav fl">
+      <h2>商机市场</h2>
+      <ul>
+        <li><img src="image/home-h.png" width="15" height="13"><a href="#">建筑材料</a></li>
+        <li><img src="image/list-h.png" width="15" height="13"><a href="#">儿童安全座椅</a></li>
+        <li><img src="image/user-h.png" width="15" height="13"><a href="#">工艺美术品</a></li>
+        <li><img src="image/home-h.png" width="15" height="13"><a href="#">建筑材料</a></li>
+        <li><img src="image/list-h.png" width="15" height="13"><a href="#">儿童安全座椅</a></li>
+        <li><img src="image/user-h.png" width="15" height="13"><a href="#">工艺美术品</a></li>
+
+      </ul>
+    </div>
+    <div class="ad fl ">
+<!--      <img src="image/ad.jpg" width="520" height="210">-->
+      <div class="images-container">
+        <img src="image/桌面壁纸1.jpg" width="520" height="210">
+        <img src="image/桌面壁纸2.jpg" width="520" height="210">
+        <img src="image/ad.jpg" width="520" height="210">
+      </div>
+      <div class="number-list">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+      </div>
+    </div>
+    <script>
+      let btnlist = document.querySelectorAll(".number-list button");
+
+      let container = document.querySelector(".images-container");
+      for (let i in btnlist) {
+        btnlist[i].onclick = function (){
+          container.style.transform = `translate(${-520 * i}px)`;
+        }
+      }
+    </script>
+
+    <div class="message fr">
+      <div class="message_top">
+        <p class="fw">建材通大众版</p>
+        <img src="image/pub.png" width="40" height="40" class="fl">
+        <p class="fl cheap">价格实惠，量身为预算不<br/>多的供应商所设。
+          <a href="">了解详情</a>
+        </p>
+      </div>
+      <div class="message_bottom">
+        <p>找信息或者发信息遇到问题</p>
+        <p class="tel"><img src="image/Tel.svg" width="14" height="20">
+        0571-89938887</p>
+        <p class="zixun">
+          <img src="image/zixun.svg" width="25" height="27">
+          <span>留言咨询</span>
+        </p>
+
+      </div>
+    </div>
+  </div>
+ <!--E=banner  -->
+  <div class="material">建筑材料</div>
+  <!--S=具体信息-->
+  <div class="product">
+    <div class="product_l fl">
+      <div class="product_l_top">
+        <div class="p_l_t_product1 fl">
+          <div class="buy fl">
+            <div class="img">
+              <img src="https://img.alicdn.com/bao/uploaded//i1/2210635202971/i5/O1CN01hSJ9gR2MabXmYS5uj_!!0-item_pic.jpg_468x468q75.jpg_.webp" width="90" height="62">
+            </div>
+            <input type="button" value="立即购买" class="btn">
+          </div>
+          <div class="explain fl">
+            <p class="goodWife">好太太晾衣架&nbsp;铝钛合金&nbsp;升降双杆</p>
+            <p class="auto">自动换挡&nbsp;安全耐用<br/>
+              稳定性好&nbsp;抗氧化强</p>
+            <p class="money">
+              <span>239.00</span>
+            <del>￥386.00</del>
+            </p>
+            <p class="buyed">
+              限量
+              <span>99</span>
+              件
+              已售
+              <span>20</span>
+              件</p>
+          </div>
+        </div>
+        <div class="p_l_t_product1 fl">
+          <div class="buy fl">
+            <div class="img">
+              <img src="https://img.alicdn.com/bao/uploaded//i2/2211972768042/O1CN01SV3LeU1jC5GgTOxhI_!!0-item_pic.jpg_468x468q75.jpg_.webp" width="90" height="62">
+            </div>
+            <input type="button" value="立即购买" class="btn">
+          </div>
+          <div class="explain fl">
+            <p class="goodWife">威尔舒木地板12px厚超级地板</p>
+            <p class="auto">防滑抗污&nbsp;清理简单<br/>
+              扣型紧密&nbsp;环保健康</p>
+            <p class="money">
+              <span>10.00</span>
+            <del>￥68.00</del>
+            </p>
+            <p class="buyed">
+              限量
+              <span>100</span>
+              件
+              已售
+              <span>8</span>
+              件</p>
+          </div>
+        </div>
+      </div>
+      <div class="product_l_line"></div>
+      <div class="product_l_top">
+        <div class="p_l_t_product1 fl">
+          <div class="buy fl">
+            <div class="img">
+              <img src="https://img.alicdn.com/bao/uploaded/i2/45659262/O1CN01QXdACy2II33rOKmLQ_!!45659262.jpg_468x468q75.jpg_.webp" width="90" height="62">
+            </div>
+            <input type="button" value="立即购买" class="btn">
+          </div>
+          <div class="explain fl">
+            <p class="goodWife">好艺达高档太空铝三件套3500</p>
+            <p class="auto">经典的设计风格<br/>
+              优质的产品品质</p>
+            <p class="money">
+              <span>99.00</span>
+            <del>￥477.00</del>
+            </p>
+            <p class="buyed">限量
+              <span>100</span>
+              件
+              已售
+              <span>251</span>
+              件</p>
+          </div>
+        </div>
+        <div class="p_l_t_product1 fl">
+          <div class="buy fl">
+            <div class="img">
+              <img src="https://img.alicdn.com/bao/uploaded/i4/2995328284/O1CN01fWdb3m2B47XO8BADx_!!2995328284.jpg_468x468q75.jpg_.webp" width="90" height="62">
+            </div>
+            <input type="button" value="立即购买" class="btn">
+          </div>
+          <div class="explain fl">
+            <p class="goodWife">好太太晾衣架&nbsp;铝钛合金&nbsp;升降双杆</p>
+            <p class="auto">自动换挡&nbsp;安全耐用<br/>
+              稳定性好&nbsp;抗氧化强</p>
+            <p class="money">
+              <span>239.00</span>
+            <del>￥386.00</del>
+            </p>
+            <p class="buyed">限量
+              <span>99</span>
+              件
+              已售
+              <span>20</span>
+              件</p>
+          </div>
+        </div>
+      </div>
+<!--      <div class="product_l_bottom"></div>-->
+    </div>
+    <div class="product_r fr">
+      <h2>建材资讯</h2>
+<!--      ul>li*12>a[href='#']{贵阳钢材市场7月17日价格行情}-->
+      <ul>
+        <li><a href="#">贵阳钢材市场7月17日价格行情</a></li>
+        <li><a href="#">石家庄钢材市场7月17日价格行情</a></li>
+        <li><a href="#">南京钢材市场7月17日价格行情</a></li>
+        <li><a href="#">重庆钢材市场7月17日价格行情</a></li>
+        <li><a href="#">杭州钢材市场7月17日价格行情</a></li>
+        <li><a href="#">广州钢材市场7月17日价格行情</a></li>
+        <li><a href="#">上海钢材市场7月17日价格行情</a></li>
+        <li><a href="#">鞍山钢材市场7月17日价格行情</a></li>
+        <li><a href="#">济南钢材市场7月17日价格行情</a></li>
+        <li><a href="#">贵阳钢材市场7月17日价格行情</a></li>
+        <li><a href="#">深圳钢材市场7月17日价格行情</a></li>
+        <li><a href="#">福建钢材市场7月17日价格行情</a></li>
+      </ul>
+
+    </div>
+  </div>
+  <!--E=具体信息-->
+<!--  <div class="char"></div>-->
+  <!--S=友情链接-->
+  <div class="link">
+    <p class="link_p1">友情链接：中央网盟&nbsp;9355开心创业网&nbsp;连锁店加盟&nbsp;就爱加盟网&nbsp;百度&nbsp;谷歌&nbsp;雅虎&nbsp;新浪&nbsp;网易&nbsp;搜狐&nbsp;西瓜&nbsp;凤凰网&nbsp;新华网&nbsp;科技网&nbsp;信息网&nbsp;渠道网&nbsp;生意街&nbsp;连锁加盟网</p>
+    <p class="link_p2">中央网盟&nbsp;9355开心创业网&nbsp;连锁店加盟&nbsp;就爱加盟网&nbsp;百度&nbsp;谷歌&nbsp;雅虎&nbsp;新浪&nbsp;网易&nbsp;搜狐&nbsp;西瓜&nbsp;凤凰网&nbsp;新华网&nbsp;科技网&nbsp;信息网&nbsp;渠道网&nbsp;生意街&nbsp;连锁加盟网</p>
+  </div>
+  <!--E=友情链接-->
+  <!--S=关于我们-->
+  <div class="about">
+    <p>关于我们 | 建材通服务 | 网站建设 | 诚聘英才 | 友情链接 | 联系方式 | 隐私声明 | 版权声明 </p>
+    <p>| 中国建材网 版权所有2000-2022 服务热线：0571-89938887 请与我们联系: Servic@BMlink.com| 建材网会员互动群：153120106 </p>
+    <p>本站网络实名：中建网本站通用网址：| 中国建材网 | 浙B2-20210159</p>
+
+  </div>
+  <!--E=关于我们-->
+</body>
+</html>
